@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Time tracking dashboard challenge </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="bg-slate-900 flex items-center justify-center h-screen ">
+    <div class=" w-fit border-8 border-slate-900 flex">
+
+        <div class="w-48 bg-blue-900 m-6 rounded-lg">
+            <div class="h-64 w-48 bg-indigo-500 rounded-lg">
+                <div class="h-16 w-16 t-4 ml-6">
+                    <div class=h-5></div>
+                    <img class="border-4 rounded-full " src="images/image-jeremy.png" alt="profile picture">
+                </div>
+                <div class="flex">
+                    <h2 class="ml-6 text-xs mt-9 text-gray-200">Report for</h2>
+
+                </div>
+                <div>
+                    <h1 class="text-3xl ml-6 font-light text-gray-200 font-['Rubik', sans-serif]">Jeremy Robson</h1>
+                </div>
+            </div>
+
+
+            <div class=" p-8 text-left justify-evenly">
+                <ul>
+                    <li class="text-sm text-gray-400">Daily</li>
+                    <li class="text-sm text-gray-100 mt-2">Weekly</li>
+                    <li class="text-sm text-gray-400 mt-2">Monthly</li>
+                </ul>
+            </div>
+        </div>
+        <div class="border-4 border-slate-900 ">
+            <div class="border-4 border-slate-900 flex mb-1">
+                <div class="relative h-44 w-48 bg-orange-400 m-4 rounded-lg">
+                    <div class="ml-28">
+                        <img src="/images/icon-work.svg" class="object-scale-down h-12 w-48" alt="work">
+                    </div>
+                    <div class="absolute bottom-0 w-48 h-36 bg-blue-900 rounded-lg text-gray-50">
+                        <div class="flex">
+                            <h2 class="ml-4 mt-3 text-sm">Work</h2>
+                            <div class="ml-24 mt-3">...</div>
+                        </div>
+                        <div>
+                            <h1 class="text-5xl ml-4 font-thin">32hrs</h1>
+                        </div>
+                        <div>
+                            <p class="ml-4 mt-3 text-xs text-gray-200">Last Week - 36hrs</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative h-44 w-48 bg-sky-300 m-4 rounded-lg">
+                    <div class="ml-28">
+                        <img src="/images/icon-play.svg" class="object-scale-down h-12 w-48" alt="work">
+                    </div>
+                    <div class="absolute bottom-0 w-48 h-36 bg-blue-900 rounded-lg text-gray-50">
+                        <div class="flex">
+                            <h2 class="ml-4 mt-3 text-sm">Play</h2>
+                            <div class="ml-24 mt-3">...</div>
+                        </div>
+                        <div>
+                            <h1 class="text-5xl ml-4 font-thin">10hrs</h1>
+                        </div>
+                        <div>
+                            <p class="ml-4 mt-3 text-xs text-gray-200">Last Week - 8hrs</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative h-44 w-48 bg-rose-400 m-4 rounded-lg">
+                    <div class="ml-28">
+                        <img src="/images/icon-study.svg" class="object-scale-down h-12 w-48" alt="work">
+                    </div>
+                    <div class="absolute bottom-0 w-48 h-36 bg-blue-900 rounded-lg text-gray-50">
+                        <div class="flex">
+                            <h2 class="ml-4 mt-3 text-sm">Study</h2>
+                            <div class="ml-24 mt-3">...</div>
+                        </div>
+                        <div>
+                            <h1 class="text-5xl ml-4 font-thin">4hrs</h1>
+                        </div>
+                        <div>
+                            <p class="ml-4 mt-3 text-xs text-gray-200">Last Week - 7hrs</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-4 border-slate-900 flex mt-2">
+                <div class="relative h-44 w-48 bg-green-300 m-4 rounded-lg">
+                    <div class="ml-28">
+                        <img src="/images/icon-exercise.svg" class="object-scale-down h-12 w-48" alt="work">
+                    </div>
+                    <div class="absolute bottom-0 w-48 h-36 bg-blue-900 rounded-lg text-gray-50">
+                        <div class="flex">
+                            <h2 class="ml-4 mt-3 text-sm">Exercise</h2>
+                            <div class="ml-24 mt-3">...</div>
+                        </div>
+                        <div>
+                            <h1 class="text-5xl ml-4 font-thin">4hrs</h1>
+                        </div>
+                        <div>
+                            <p class="ml-4 mt-3 text-xs text-gray-200">Last Week - 5hrs</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative h-44 w-48 bg-purple-500 m-4 rounded-lg">
+                    <div class="ml-32 mt-1">
+                        <img src="/images/icon-social.svg" class="h-16 w-42" alt="work">
+                    </div>
+                    <div class="absolute bottom-0 w-48 h-36 bg-blue-900 rounded-lg text-gray-50">
+                        <div class="flex">
+                            <h2 class="ml-4 mt-3 text-sm">Social</h2>
+                            <div class="ml-24 mt-3">...</div>
+                        </div>
+                        <div>
+                            <h1 class="text-5xl ml-4 font-thin">5hrs</h1>
+                        </div>
+                        <div>
+                            <p class="ml-4 mt-3 text-xs text-gray-200">Last Week - 10hrs</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative h-44 w-48 bg-amber-300 m-4 rounded-lg">
+                    <div class="ml-28">
+                        <img src="/images/icon-self-care.svg" class="object-scale-down h-12 w-48" alt="work">
+                    </div>
+                    <div class="absolute bottom-0 w-48 h-36 bg-blue-900 rounded-lg text-gray-50">
+                        <div class="flex">
+                            <h2 class="ml-4 mt-3 text-sm">Self Care</h2>
+                            <div class="ml-24 mt-3">...</div>
+                        </div>
+                        <div>
+                            <h1 class="text-5xl ml-4 font-thin">2hrs</h1>
+                        </div>
+                        <div>
+                            <p class="ml-4 mt-3 text-xs text-gray-200">Last Week - 2hrs</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        
+    </div>
+
+
+<div class="absolute bottom-10 border-2 rounded-lg border-slate-500 p-2 h-16 w-fit text-gray-200 text-center	">
+
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor <br> </a> 
+        Coded by <a href="#">Ross Stevenson</a>.
+      </div>
+
+</div>
+
+
+
+
+    
+</body>
+
+</html>
+
+<!-- <div class= "border-8 h-48 w-60 flex bg-slate-800 ">
+    <div class="absolute inset-x-0 bottom-0 h-16 bg-slate-800"></div>
+
+    <h1 class= "text-3xl text-slate-50">Test2</h1> -->
+
+
+<!-- width="69" height="69" -->
+
+<!-- <img src="/images/icon-work.svg" class="object-scale-down h-12 w-48" alt="work"> -->
+
+<!-- <div class=" w-48 h-72 bg-green-500 rounded-lg text-gray-50">
+    <div class = h-5></div>
+    <div class="h-16 w-16 t-4 ml-6">
+        <img class="border-4 rounded-full border-white-600" src="images/image-jeremy.png"
+            alt="profile picture">
+    </div>
+    <div class="flex">
+        <h2 class="ml-6 text-xs mt-9">Report for</h2>
+
+    </div>
+    <div>
+        <h1 class="text-3xl ml-6 font-light">Ross Stevenson</h1>
+    </div>
+
+</div> -->
