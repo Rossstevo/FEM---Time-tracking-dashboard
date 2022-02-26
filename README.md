@@ -62,10 +62,10 @@ With Tailwind, the document customization is done in the HTML doc, rather than a
 
 ----Without Tailwind-----
 ```html
-<h1 class="stardard css">This is standard CSS</h1>
+<h1 class="stardard">This is standard CSS</h1>
 ```
 ```css
-.proud-of-this-css {
+.standard {
   color: #x1x1x1;
   width: x;
   height: x;
